@@ -1,22 +1,29 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+build/
+*.local
+
+# Environment — chỉ .env.example và .env.development (giá trị public) được commit
+.env
+.env.*
+!.env.example
+!.env.development
+
+# Dev certificates (mkcert) — TUYỆT ĐỐI không commit
+.cert/
+*.pem
+*.key
+
 # Logs
 *.log
 npm-debug.log*
 
-# Dependencies
-node_modules
-
-# Build output
-dist
-dist-ssr
-*.local
-
-# Editor
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Editor / OS
+.vscode/
+.idea/
 .DS_Store
-
-# Env & dev certs (giữ .env.development để team dùng chung cấu hình dev)
-.env
-.env.local
-.cert
+Thumbs.db
