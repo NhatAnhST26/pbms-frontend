@@ -19,6 +19,9 @@ Hệ thống phục vụ 5 nhóm người dùng: Admin, Manager, Staff, Customer
 - [Liệt kê các màn hình/tính năng tôi tự code]
 - Biên soạn tài liệu đặc tả yêu cầu (SRS) của dự án
 
+**Đóng góp:** 87/188 commit trên repo này (~6.800 dòng thêm mới) —
+xem [danh sách commit của tôi](https://github.com/NhatAnhST26/pbms-frontend/commits?author=NhatAnhST26).
+
 ## Công nghệ
 
 - **ReactJS 19** + React Router 7
